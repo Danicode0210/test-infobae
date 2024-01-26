@@ -1,0 +1,52 @@
+.postListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postListTitle {
+    width: 100%;
+    color: #f68e01;  
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .postItem {
+    width: 350px; 
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .postItemTitle {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .postItemContent {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .tagListContainer {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .postItemImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  p{
+    margin-bottom: 10px;
+  }

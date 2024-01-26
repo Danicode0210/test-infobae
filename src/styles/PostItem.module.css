@@ -1,0 +1,18 @@
+.postItemImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .containerButton{
+    text-align-last: center;
+  }
+  
+.commentsButton{
+    background: #f68e01;
+    width: 60%;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
