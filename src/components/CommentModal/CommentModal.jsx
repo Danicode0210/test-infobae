@@ -4,7 +4,7 @@ const CommentModal = ({ post, onClose }) => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    fetch('https://dummyapi.io/data/v1/post/${post.id}/comment?limit=5', {
+    fetch(`https://dummyapi.io/data/v1/post/${post.id}/comment?limit=5`, {
       headers: {
         'app-id': '65b291d2dc8f893f07ea4e9e', 
       },

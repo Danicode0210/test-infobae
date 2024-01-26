@@ -21,12 +21,10 @@ const App = () => {
   }, []);
 
   const handleShowUserList = async () => {
-    console.log('handleShowUserList ejecutado');
     if (!user) {
       try {
         await signInWithGoogle();
         window.location.href = '/users';
-        console.log('Iniciando sesión con Google...');
       } catch (error) {
         console.error('Error al iniciar sesión con Google', error.message);
       }
