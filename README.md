@@ -3,11 +3,10 @@
   Url Deploy: https://test-infobae.vercel.app/
 
 # Tecnologias utilizadas:
-  # Vite Js
-  # React js
-  # Firebase
-
-
+  #Vite Js
+  #React js
+  #Firebase
+  
 ## Versión Desktop
 <img width="953" alt="image" src="https://github.com/Danicode0210/test-infobae/assets/65778274/6a2d53f6-560d-43cf-971a-875d3fc64ead">
 <img width="931" alt="image" src="https://github.com/Danicode0210/test-infobae/assets/65778274/10565bfa-99c1-4ef5-8efb-1d047541eee7">
